@@ -129,19 +129,20 @@ class Manager extends Employee {
 */
 
 //CODE HERE
- getEmployees.manager();
+manager.getEmployees();
 /*
+
     Call the `addEmployee` method on the 
     `manager` object passing in the string 
     'Coach' or whatever name you'd like.
 */
 
 //CODE HERE 
- addEmployee.manager('Coach');
+manager.addEmployee('Coach');
 
 /*
     Call the `getEmployees` method on the
     `manager` object again to confirm 
     that an employee was added.
 // */
- getEmployees.manager()
+ manager.getEmployees()
