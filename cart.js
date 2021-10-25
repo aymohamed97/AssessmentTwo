@@ -85,7 +85,11 @@ calcFinalPrice()
 
 /*
     TEXT ANSWER HERE
-The four properties are name 'string', diet (vegan, kosher, halal)'string', budget 'number', likesSpicy (bool)
+The four properties are name 'string', because you learn who youre referring to and will establish a good relationship with
+ diet (vegan, kosher, halal)'string', this will allow you to meet their dietary preferences so they dont get offended or upset, causing you to lose business
+
+  budget 'number' this may allow you to help them pick recommendations according to their pocket size
+  , likesSpicy (bool) this will also helo you cater to their taste buds and specific tastes 
 
 */
 

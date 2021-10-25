@@ -48,11 +48,10 @@ console.log(greetUser('Andrew'))
         // `You're in our delivery zone!`
 */
 
-const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
+// const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
-//CODE HERE
-function canWeDeliver(zipcode){
-
+// //CODE HERE
+// const 
 
 /* 
     Problem 2 Continued
@@ -124,4 +123,4 @@ const deals = [
     to be displaying wrong on the live site.
 */
 
-// CODE HERE
+// CODE HERE                                 
