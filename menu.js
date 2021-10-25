@@ -32,7 +32,14 @@
 
 //CODE HERE
 
-
+const pizza = {
+    name: "Pineapple",
+    price: 12, 
+    category: "entree",
+    popularity: 8,
+    rating: 10,
+    tags: ['tasty', 'tropical', 'fancy']
+}
 
 //////////////////PROBLEM 2////////////////////
 /* 
@@ -43,7 +50,7 @@
 */
 
 //CODE HERE
-
+console.log(pizza.popularity);
 
 /*
     Second, log the second tag in your pizza's
@@ -54,6 +61,7 @@
 
 //CODE HERE
 
+console.log(pizza.tags[1]);
 
 /*
     Third, destructure the price off of the
@@ -62,7 +70,9 @@
     Print the value of your new price variable.
 */
 
-//CODE HERE
+// //CODE HERE
+let {price} = pizza
+console.log(price)
 
 
 /*
@@ -73,7 +83,8 @@
 */
 
 //CODE HERE
-
+let {category} = pizza;
+console.log(category)
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -88,7 +99,41 @@
 */
 
 //CODE HERE
-
+let foodArr = [
+    {name:'Burger',
+    price: 10, 
+    category:'entree',
+    popularity: 9,
+    rating: 9,
+    tags: 'American' },
+    { name: 'Pasta',
+      price: 20,
+      category:'entree',
+      popularity: 7,
+      rating: 12,
+      tags:['Italian', 'Entree', 'Fancy'],
+    }, 
+    {name: 'Gelato',
+     price: 5,
+     category: 'Desert',
+     popularity: 7,
+     rating: 6,
+     tags:[ 'Italian', 'Sweet', 'Summer', 'Staple']
+    },
+    {name: 'Rice',
+     price: 4,
+     category: 'entree',
+     popularity: 10,
+     rating: 13,
+     tags: ['Carb', 'Ethnic', 'Staple']
+    },{
+     name:'Cereal',
+     price:2,
+     category: 'Breakfast',
+     popularity: 20,
+     rating: 25,
+     tags:['Easy', 'Staple', 'Kids']
+    }]
 
 
 //////////////////PROBLEM 4////////////////////
@@ -104,6 +149,11 @@
 */
 
 //CODE HERE
+
+const commonTags = foodArr.filter(foodArr, cb){
+    return foodArr.tags=== 'Staple';
+})
+console.log(commonTags);
 
 // const filteredFood = foodArr.filter(/* CALLBACK HERE */)
 

@@ -34,7 +34,10 @@ const cart = [
 ]
 
 //CODE HERE
-
+const summedPrice = cart.reduce(function(acc,curr ){
+    return acc + curr.price
+} ,0)
+console.log(summedPrice)
 // const summedPrice = cart.reduce(/* CALLBACK HERE */)
 
 
@@ -55,7 +58,10 @@ const cart = [
 
 //CODE HERE
 
-
+function calcFinalPrice(cartTotal, couponValue, tax){
+     return cartTotal * 1+ tax - couponValue
+ }
+calcFinalPrice()
 
 //////////////////PROBLEM 3////////////////////
 /*  
@@ -79,6 +85,7 @@ const cart = [
 
 /*
     TEXT ANSWER HERE
+The four properties are name 'string', diet (vegan, kosher, halal)'string', budget 'number', likesSpicy (bool)
 
 */
 
@@ -88,3 +95,9 @@ const cart = [
 */
 
 //CODE HERE
+const customerObj = {
+    name: 'Ayaan',
+    diet: 'halal',
+    budget: 20,
+    likesSpicy: false
+}

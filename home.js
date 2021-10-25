@@ -23,9 +23,10 @@
 
 //CODE HERE
 
-
-
-
+const greetUser = username =>{
+    return `Welcome back, ${username}`;
+}
+console.log(greetUser('Andrew'))
 
 //////////////////PROBLEM 2////////////////////
 /* 
@@ -50,7 +51,7 @@
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
 //CODE HERE
-
+function canWeDeliver(zipcode){
 
 
 /* 
@@ -123,4 +124,4 @@ const deals = [
     to be displaying wrong on the live site.
 */
 
-//CODE HERE
+// CODE HERE
