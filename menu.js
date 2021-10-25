@@ -199,7 +199,16 @@ console.log(commonTags);
 */
 
 //CODE HERE
-
+function filterByProperty (rating,nums, type){
+    const newFilteredArr = foodArr.filter(function(rating, nums){
+        return (rating > 10)
+    })
+    if (type === 'above'){
+        return newFilteredArr
+    }else {
+        return rating < 10
+    }
+}
 
 /*
     Invoke the `filterByProperty` function passing
@@ -209,3 +218,4 @@ console.log(commonTags);
 */
 
 //CODE HERE
+filterByProperty(25, 2, true);
