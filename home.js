@@ -107,9 +107,9 @@ const deals = [
 */
 
 //CODE HERE
-
-
-
+ //we need to replace('5', 0
+ deals[0].title = deals[0].title.replace(15,10);
+ console.log(deals[0].title);
 /*
     The restaurant is going to continue its
     family deal for another month. 
@@ -123,4 +123,6 @@ const deals = [
     to be displaying wrong on the live site.
 */
 
-// CODE HERE                                 
+// CODE HERE          
+deals[1].desc = deals[1].desc.replace('March', 'April')         
+console.log(deals[1].desc);
