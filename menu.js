@@ -150,8 +150,8 @@ let foodArr = [
 
 //CODE HERE
 
-const commonTags = foodArr.filter(foodArr, cb){
-    return foodArr.tags=== 'Staple';
+const commonTags = foodArr.filter(food => {
+    return food.tags.includes('Staple');
 })
 console.log(commonTags);
 
